@@ -4,34 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Simple Form</title>
 </head>
 <body>
-    <form action="" method="get">
-        <h1>Create an account</h1>
-        <p>Already have an account? <a href="#">Log in</a></p>
-
-        <label for="first-name"></label>
-        <input type="text" name="first-name" id="first-name" placeholder="First Name">
-
-        <label for="last-name"></label>
-        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
-
-        <label for="email"></label>
-        <input type="email" name="email" id="email" placeholder="Email">
-
-        <label for="password"></label>
-        <input type="password" name="password" id="password" placeholder="Enter your password">
-
-        <input type="checkbox" name="remember-me" id="remember-me">
-        <label for="remember-me">Remember Me</label>
-
-        <button type="submit">Create account</button>
-
-        <p>Or register with</p>
-
-        <a href="https://www.google.com">Google</a>
-        <a href="https://www.apple.com">Apple</a>
-    </form>
+    <div class="form-container">
+        <form action="" method="get">
+            <h1>Create an account</h1>
+            <p class="thin-txt">Already have an account? <a href="#">Log in</a></p>
+    
+            <div class="grid-container">
+                <label for="first-name"></label>
+                <input type="text" name="first-name" id="first-name" placeholder="First Name">
+    
+                <label for="last-name"></label>
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+    
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email">
+    
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+            </div>
+            
+            <div>
+                <input type="checkbox" name="remember-me" id="remember-me">
+                <label for="remember-me">Remember Me</label>
+            </div>
+            
+    
+            <button type="submit">Create account</button>
+    
+            <p>Or register with</p>
+    
+            <a href="https://www.google.com">Google</a>
+            <a href="https://www.apple.com">Apple</a>
+        </form>
+    </div>
+    
 </body>
 </html>
