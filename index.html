@@ -13,31 +13,31 @@
     <div class="form-container">
         <form action="" method="get">
             <h1>Create an account</h1>
-            <p class="thin-txt">Already have an account? <a href="#">Log in</a></p>
+            <p class="thin-txt">Already have an account? <a href="#" class="login">Log in</a></p>
     
-            <div class="grid-container">
+            <div class="input-container">
                 <label for="first-name"></label>
-                <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                <input type="text" name="first-name" id="first-name" placeholder="First Name" class="input" required>
     
                 <label for="last-name"></label>
-                <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="input" required>
     
                 <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="email" name="email" id="email" placeholder="Email" class="input" required>
     
                 <label for="password"></label>
-                <input type="password" name="password" id="password" placeholder="Enter your password">
+                <input type="password" name="password" id="password" placeholder="Enter your password" class="input" required>
             </div>
             
             <div>
                 <input type="checkbox" name="remember-me" id="remember-me">
-                <label for="remember-me">Remember Me</label>
+                <label for="remember-me" class="thin-txt">Remember Me</label>
             </div>
             
     
-            <button type="submit">Create account</button>
+            <button type="submit" class="btn-submit">Create account</button>
     
-            <p>Or register with</p>
+            <p class="thin-txt center">Or register with</p>
     
             <a href="https://www.google.com">Google</a>
             <a href="https://www.apple.com">Apple</a>

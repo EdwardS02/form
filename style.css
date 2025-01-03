@@ -32,6 +32,37 @@ form {
     font-size: 14px;
 }
 
-.grid-container {
+.center {
+    text-align: center;
+}
 
+.login {
+    color: #c6b8ee;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input {
+    padding: 0.4rem;
+    border-radius: 5px;
+    background-color: #676179;
+    border: none;
+    color: white;
+}
+
+input::placeholder {
+    color: #ded9ed;
+    opacity: .6;
+}
+
+.btn-submit {
+    background-color: #6e54b5;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: none;
 }
