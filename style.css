@@ -67,6 +67,10 @@ input::placeholder {
     border: none;
 }
 
+.btn-submit:hover {
+    cursor: pointer;
+}
+
 .register {
     border: 1px solid white;
     display: flex;
@@ -84,5 +88,19 @@ input::placeholder {
 }
 
 @media (min-width: 1024px) {
-    
+    h1 {
+        font-size: 3rem;
+    }
+
+    .thin-txt, .input, .btn-submit {
+        font-size: 20px;
+    }
+
+    .input {
+        padding: 1rem;
+    }
+
+    .input-container { 
+        gap: 1rem;
+    }
 }
